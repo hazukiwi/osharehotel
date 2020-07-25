@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="hotel-layout.css">
+	<title>BASIC HOTEL DESIGN</title>
+</head>
+<body>
+	<header>
+		<img src="image/oshare-bgimage.jpg" alt="トップイメージ">
+		<div class="top-titple">
+			OSHARE<br>
+			DESIGN<br>
+			HOMEPAGE
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li>About</li>
+			<li>Room</li>
+			<li>Access</li>
+			<li>Gallery</li>
+		</ul>
+	</nav>
+	<div class="menubutton" onclick="menu()">
+		<i></i>
+		<i></i>
+		<i></i>		
+	<main>
+		<h1>オシャレな旅館のホームページ</h1>
+		<div class="plan">
+			<img src="image/oshare-bar.jpg" alt="バーの写真">
+			<div class="comments">
+				<h2>木で統一された雰囲気のあるBAR</h2>
+				<p>
+					宿泊される方が自由にいつでも飲める、Bar。他の団体様とも交流できる場になっています。
+				</p>
+				<div>※20歳以上の方のみご利用できます。</div>
+			</div>
+		</div>
+		<div class="plan">
+			<img src="image/oshare-room.jpg" alt="部屋の写真">
+			<div class="comments">
+				<h2>統一感のあるお部屋</h2>
+				<p>
+					木のぬくもりのあるベッド空間、ホステルでは珍しいお部屋ごとの浴室を完備。
+				</p>
+			</div>
+		</div>
+	</main>
+	<aside>
+		<h2>News</h2>
+		<div class="news">
+			<div class="topic">
+				<div class="time">2019/10/01</div>
+				<div>消費税の増税に伴う料金の変更のお知らせ　増税後ver</div>
+			</div>
+			<div class="topic">
+				<div class="time">2019/09/23</div>
+				<div>台風に関する営業時間の変更のお知らせ</div>
+			</div>
+			<div class="topic">
+				<div class="time">2019/07/04</div>
+				<div>公式instagramがオープン</div>
+			</div>
+
+	</aside>
+	<footer>
+		&copy; 2019 Hazuki Yamanaka
+	</footer>
+	<script>
+		function menu() {
+			document.querySelector('nav').classList.toggle('open');
+		}
+	</script>
+</body>
+</html>
